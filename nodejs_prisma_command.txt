@@ -1,0 +1,81 @@
+Youtube
+url : https://www.youtube.com/watch?v=HCJmlvgO2WY
+Prisma ORM crash course by building a RestAPI with Nodejs Express
+channel : yoursTRULY
+
+#1: Express JS Introduction, Setup, IDE & First Program in Express JS Tutorial in Hindi in 2020
+url : https://www.youtube.com/watch?v=CgoD3HX1lWY&list=PLwGdqUZWnOp3Vqww2cL5KbDkShj4NMRzk
+channel : Thapa Technical
+
+
+
+Branch Name Change Git command
+git branch -m main nodejsprisma_main
+git fetch origin
+git branch -u origin/nodejsprisma_main nodejsprisma_main
+git remote set-head origin -a
+
+Branch Name: nodejsprisma_main
+
+
+
+or create a new repository on the command line
+echo "# node_jsprisma_api" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Priyanshu-Singh1104/node_jsprisma_api.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/Priyanshu-Singh1104/node_jsprisma_api.git
+git branch -M main
+git push -u origin main
+…or import code from a
+
+npm i -g express-draft
+
+
+
+ type nul > app.js
+ npm init
+ npm i express
+ npm i dotenv
+ npm i http-errors
+ npm i morgan
+ npm i nodemon
+ npm install nodemon  --save-dev
+ npm i -D prisma
+ npm i @prisma/client
+ npx prisma init
+ npx prisma studio // For Opend Model
+ npx prisma migrate dev
+ 16:19 minute
+
+warn You already have a .gitignore. Don't forget to exclude .env to not commit any secret.
+
+Next steps:
+1. Set the DATABASE_URL in the .env file to point to your existing database. If your database has no tables yet, read https://pris.ly/d/getting-started
+2. Set the provider of the datasource block in schema.prisma to match your database: postgresql, mysql, sqlite, sqlserver or mongodb (Preview).
+3. Run prisma db pull to turn your database schema into a Prisma schema.4. Run prisma generate to generate the Prisma Client. You can then start querying your database.
+More information in our documentation:https://pris.ly/d/getting-started
+PS D:\node_tutorials\nodejs_prisma_api>
+
+
+
+ add in "scripts": {}
+         "start": "node app.js",
+        "dev": "nodemon app.js",
+
+
+
+exp .
+npm install -g npm
+node -v
+npm -v
+npm install -g dotenv-cli
+npm i
+
+git init
+git add README.md

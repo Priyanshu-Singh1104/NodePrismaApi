@@ -1,0 +1,28 @@
+
+### Get All Product
+GET http://localhost:3000/api/products
+
+### Get Single Product
+GET http://localhost:3000/api/products/5
+
+### Add Single Product
+POST http://localhost:3000/api/products
+Content-Type: application/json
+
+{
+    "name":"Redmi 10 Pro",
+    "price":10000,
+    "fk_cat_id":2
+}
+
+### Delete Single Product
+DELETE  http://localhost:3000/api/products/2
+
+### Update Single Product
+PATCH  http://localhost:3000/api/products/5
+
+{
+    "name":"Redmi 11",
+    "price":15000,
+    "fk_cat_id":1
+}

@@ -1,0 +1,38 @@
+{
+    "name": "nodejs_prisma_api",
+    "version": "1.0.0",
+    "description": "'My Node JS With Prisma APi'",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Priyanshu-Singh1104/node_jsprisma_api.git"
+    },
+    "keywords": [
+        "\"Prisma",
+        "and",
+        "Node",
+        "js\""
+    ],
+    "author": "Priyanshu Singh",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Priyanshu-Singh1104/node_jsprisma_api/issues"
+    },
+    "homepage": "https://github.com/Priyanshu-Singh1104/node_jsprisma_api#readme",
+    "dependencies": {
+        "@prisma/client": "^3.8.1",
+        "dotenv": "^12.0.3",
+        "express": "^4.17.2",
+        "http-errors": "^2.0.0",
+        "morgan": "^1.10.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15",
+        "prisma": "^3.8.1"
+    }
+}
