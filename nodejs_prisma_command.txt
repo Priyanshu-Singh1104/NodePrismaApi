@@ -7,7 +7,8 @@ channel : yoursTRULY
 url : https://www.youtube.com/watch?v=CgoD3HX1lWY&list=PLwGdqUZWnOp3Vqww2cL5KbDkShj4NMRzk
 channel : Thapa Technical
 
-
+url : https://www.youtube.com/watch?v=jn3tYh2QQ-g&list=PLtYTVIzWW8XEGCo-sAot0hgZH9Z9OSWvR&index=6
+channel : Technical Babaji
 
 Branch Name Change Git command
 git branch -m main nodejsprisma_main
@@ -52,6 +53,7 @@ npm i -g express-draft
  npx prisma studio // For Opend Model
  npx prisma migrate dev
  16:19 minute
+ npm install multer  // For File Upload Multipart
 
 warn You already have a .gitignore. Don't forget to exclude .env to not commit any secret.
 
