@@ -10,6 +10,9 @@ channel : Thapa Technical
 url : https://www.youtube.com/watch?v=jn3tYh2QQ-g&list=PLtYTVIzWW8XEGCo-sAot0hgZH9Z9OSWvR&index=6
 channel : Technical Babaji
 
+npmjs.com
+jwt.io
+
 Branch Name Change Git command
 git branch -m main nodejsprisma_main
 git fetch origin
@@ -54,6 +57,8 @@ npm i -g express-draft
  npx prisma migrate dev
  16:19 minute
  npm install multer  // For File Upload Multipart
+ npm i jsonwebtoken
+ npm i bcryptjs
 
 warn You already have a .gitignore. Don't forget to exclude .env to not commit any secret.
 

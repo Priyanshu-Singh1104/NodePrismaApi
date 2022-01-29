@@ -1,10 +1,25 @@
 const router = require('express').Router();
 const { PrismaClient } = require('@prisma/client');
 const prisma = new PrismaClient();
+const jwt = require("jsonwebtoken");
+const createToken = async() => {
+    const token = await jwt.sign({ _id: "123ret45456" }, "agdvasjhsjvsjbcscjksjcksjckaskcjq23rr2347wwwfhj", {
+        expiresIn: "2 seconds"
+    });
+    // expiresIn: "2 minutes"
+    console.log(token);
+
+    const userVer = await jwt.verify(token, "agdvasjhsjvsjbcscjksjcksjckaskcjq23rr2347wwwfhj");
+    console.log(userVer);
+}
+
+//Payload Payload Means Body Data
 
 // router.get('/', async(req, res, next) => {
 //     res.send({ message: 'OK Api is Working' });
 // });
+
+createToken();
 
 router.get('/products', async(req, res, next) => {
     try {
